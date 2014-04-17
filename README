@@ -17,10 +17,11 @@ Running
 
 + Run SIESTA calculation with `SaveElectrostaticPotential .true.` and an
   appropriate mesh
-+ Run `siesta2repeat` in the directory that your calculation ran.
++ Run `siesta2repeat` in the directory that your calculation ran. This
+  directory must contain the `.VH` and `.XV` files.
 + Three inputs need to be typed or piped in:
-    + basename of the calculation i.e. for `structure.fdf`, type
+    + basename of the calculation i.e. for `structure.XV`, type
       `structure`
-    + origin point e.g. `0.0 0.0 0.0`
+    + origin point of the grid e.g. `0.0 0.0 0.0`
     + required grid size e.g. `128 82 116`
 
